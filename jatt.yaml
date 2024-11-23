@@ -6,11 +6,14 @@ contentDir: content
 outputDir: public
 
 nav:
+  title: devmegablaster
   items:
     - label: Home
       url: /
     - label: About
       url: /about
+    - label: Resume
+      url: /resume.pdf
 
 home:
   name: Ojas Tyagi
