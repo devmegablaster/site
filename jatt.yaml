@@ -9,8 +9,6 @@ nav:
   items:
     - label: Home
       url: /
-    - label: Posts
-      url: /posts
     - label: About
       url: /about
 
@@ -26,7 +24,7 @@ home:
     - name: linkedin
       url: "https://www.linkedin.com/in/ojastyagi/"
   buttons:
-    - name: Posts
-      url: /posts
     - name: About
       url: /about
+    - name: Resume
+      url: /resume.pdf
