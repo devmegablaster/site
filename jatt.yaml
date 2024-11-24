@@ -22,12 +22,14 @@ home:
   description: "Software Developer"
   image: "profile.jpeg"
   social:
-    - name: twitter
-      url: "https://twitter.com/ojastyagi"
     - name: github
       url: "https://github.com/devmegablaster"
     - name: linkedin
-      url: "https://www.linkedin.com/in/ojastyagi/"
+      url: "https://linkedin.com/in/ojastyagi/"
+    - name: mail
+      url: "mailto:ojas@megablaster.dev"
+    - name: monkeytype
+      url: "https://monkeytype.com/profile/megablaster"
   buttons:
     - name: About
       url: /about
