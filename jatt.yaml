@@ -10,6 +10,8 @@ nav:
   items:
     - label: Home
       url: /
+    - label: Posts
+      url: /posts
     - label: About
       url: /about
     - label: Resume
