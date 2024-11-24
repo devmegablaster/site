@@ -1,5 +1,5 @@
-baseURL: "http://localhost:8000"
-title: devmegablaster | Ojas Tyagi
+baseURL: "https://megablaster.dev"
+title: devmegablaster
 author: Ojas Tyagi
 theme: dark
 contentDir: content
