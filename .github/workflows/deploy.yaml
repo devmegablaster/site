@@ -25,9 +25,6 @@ jobs:
         with:
           root_file: ./resume/resume.tex
 
-      - name: Move Resume
-        run: mv resume.pdf public/
-
       - name: Get Jatt
         run: |
           curl -LO "https://github.com/devmegablaster/jatt/releases/latest/download/jatt_Linux_x86_64.tar.gz"
@@ -36,6 +33,9 @@ jobs:
 
       - name: Run Jatt
         run: ./jatt
+
+      - name: Move Resume
+        run: mv resume.pdf public/
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
