@@ -1,0 +1,240 @@
+%%%%%%%%%%%%%%%%%
+% This is an sample CV template created using altacv.cls
+% (v1.7, 9 August 2023) written by LianTze Lim (liantze@gmail.com). Compiles with pdfLaTeX, XeLaTeX and LuaLaTeX.
+%
+%% It may be distributed and/or modified under the
+%% conditions of the LaTeX Project Public License, either version 1.3
+%% of this license or (at your option) any later version.
+%% The latest version of this license is in
+%%    http://www.latex-project.org/lppl.txt
+%% and version 1.3 or later is part of all distributions of LaTeX
+%% version 2003/12/01 or later.
+%%%%%%%%%%%%%%%%
+
+%% Use the "normalphoto" option if you want a normal photo instead of cropped to a circle
+% \documentclass[10pt,a4paper,normalphoto]{altacv}
+
+\documentclass[10pt,a4paper,ragged2e,withhyper]{altacv}
+%% AltaCV uses the fontawesome5 and packages.
+%% See http://texdoc.net/pkg/fontawesome5 for full list of symbols.
+
+% Change the page layout if you need to
+\geometry{left=0.9cm,right=0.9cm,top=1cm,bottom=1cm,columnsep=1.2cm}
+
+% The paracol package lets you typeset columns of text in parallel
+\usepackage{paracol}
+
+% \usepackage[none]{hyphenat}
+
+% Change the font if you want to, depending on whether
+% you're using pdflatex or xelatex/lualatex
+% WHEN COMPILING WITH XELATEX PLEASE USE
+% xelatex -shell-escape -output-driver="xdvipdfmx -z 0" sample.tex
+\ifxetexorluatex
+  % If using xelatex or lualatex:
+  \setmainfont{Roboto Slab}
+  \setsansfont{Lato}
+  \renewcommand{\familydefault}{\sfdefault}
+\else
+  % If using pdflatex:
+  \usepackage[rm]{roboto}
+  \usepackage[defaultsans]{lato}
+  % \usepackage{sourcesanspro}
+  \renewcommand{\familydefault}{\sfdefault}
+\fi
+
+% Change the colours if you want to
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\definecolor{DarkPastelRed}{HTML}{450808}
+\definecolor{PastelRed}{HTML}{8F0D0D}
+\definecolor{GoldenEarth}{HTML}{E7D192}
+\colorlet{name}{black}
+\colorlet{tagline}{PastelRed}
+\colorlet{heading}{DarkPastelRed}
+\colorlet{headingrule}{GoldenEarth}
+\colorlet{subheading}{PastelRed}
+\colorlet{accent}{PastelRed}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+% Change some fonts, if necessary
+\renewcommand{\namefont}{\Huge\rmfamily\bfseries}
+\renewcommand{\personalinfofont}{\footnotesize}
+\renewcommand{\cvsectionfont}{\LARGE\rmfamily\bfseries}
+\renewcommand{\cvsubsectionfont}{\large\bfseries}
+
+
+% Change the bullets for itemize and rating marker
+% for \cvskill if you want to
+\renewcommand{\cvItemMarker}{{\small\textbullet}}
+\renewcommand{\cvRatingMarker}{\faCircle}
+% ...and the markers for the date/location for \cvevent
+% \renewcommand{\cvDateMarker}{\faCalendar*[regular]}
+% \renewcommand{\cvLocationMarker}{\faMapMarker*}
+
+
+% If your CV/résumé is in a language other than English,
+% then you probably want to change these so that when you
+% copy-paste from the PDF or run pdftotext, the location
+% and date marker icons for \cvevent will paste as correct
+% translations. For example Spanish:
+% \renewcommand{\locationname}{Ubicación}
+% \renewcommand{\datename}{Fecha}
+
+
+%% Use (and optionally edit if necessary) this .tex if you
+%% want to use an author-year reference style like APA(6)
+%% for your publication list
+% \input{pubs-authoryear.tex}
+
+%% Use (and optionally edit if necessary) this .tex if you
+%% want an originally numerical reference style like IEEE
+%% for your publication list
+\input{pubs-num.tex}
+
+%% sample.bib contains your publications
+\addbibresource{sample.bib}
+
+\begin{document}
+\name{Ojas Tyagi}
+\tagline{Software Developer}
+%% You can add multiple photos on the left or right
+% \photoL{2.5cm}{Yacht_High,Suitcase_High}
+
+\personalinfo{%
+  % Not all of these are required!
+  \email{ojas@megablaster.dev}
+  \phone{+91-9650618048}
+  \linkedin{linkedin.com/in/ojastyagi}
+  \homepage{megablaster.dev}
+  \github{github.com/devmegablaster}
+  %% You can add your own arbitrary detail with
+  %% \printinfo{symbol}{detail}[optional hyperlink prefix]
+  % \printinfo{\faPaw}{Hey ho!}[https://example.com/]
+
+  %% Or you can declare your own field with
+  %% \NewInfoFiled{fieldname}{symbol}[optional hyperlink prefix] and use it:
+  % \NewInfoField{gitlab}{\faGitlab}[https://gitlab.com/]
+  % \gitlab{your_id}
+  %%
+  %% For services and platforms like Mastodon where there isn't a
+  %% straightforward relation between the user ID/nickname and the hyperlink,
+  %% you can use \printinfo directly e.g.
+  % \printinfo{\faMastodon}{@username@instace}[https://instance.url/@username]
+  %% But if you absolutely want to create new dedicated info fields for
+  %% such platforms, then use \NewInfoField* with a star:
+  % \NewInfoField*{mastodon}{\faMastodon}
+  %% then you can use \mastodon, with TWO arguments where the 2nd argument is
+  %% the full hyperlink.
+  % \mastodon{@username@instance}{https://instance.url/@username}
+}
+
+\makecvheader
+%% Depending on your tastes, you may want to make fonts of itemize environments slightly smaller
+% \AtBeginEnvironment{itemize}{\small}
+
+%% Set the left/right column width ratio to 6:4.
+\columnratio{0.6}
+
+\begin{paracol}{2}
+
+\cvsection{Education}
+
+\cvevent{B.Tech Computer Science and Engineering}{Vellore Institute of Technology, Vellore}{September 2021 -- May 2025}{Vellore}
+\begin{itemize}
+\item Currently pursuing a B.Tech degree in \textbf{Computer Science and Engineering with specialization in Data Science}. Gained expertise in essential computer science topics such as data structures, algorithms, web development and other concepts.
+\item Played a key role in the \textbf{Google Developer Student Club} and \textbf{Codechef VIT}, organizing diverse events such as hackathons and workshops, successfully engaging over 5,000 participants.
+\end{itemize}
+
+\cvsection{Experience}
+
+\cvevent{Software Developer Intern}{Superjoin (Previously Stackit)}{August 2023 -- January 2024}{Bangalore, India}
+\begin{itemize}
+
+\item \textbf{Architected Kafka and REST APIs}: Enhanced data transfer efficiency and automated data integration, \textbf{reducing manual efforts by 40\%}.
+
+\item \textbf{Engineered Stripe Paywall and Secure Collaboration Features}: Increased subscriptions by 25\% with a seamless paywall, and introduced secure connection sharing within organizations without exposing sensitive keys.
+
+\item \textbf{Created CI/CD Pipelines with Jenkins}: \textbf{Reduced deployment time by 50\%} through robust pipelines for production and pre-production builds. Also, created feature for automated data reports sent to Slack and email for users.
+
+\item \textbf{Represented Superjoin at Key Tech Events}: Engaged with the tech community in Bangalore at events like the \textbf{Google Workspace Developer Summit}, expanding professional networks by meeting \textbf{over 200 industry professionals} and staying updated with the latest industry trends.
+\end{itemize}
+
+\divider
+
+\cvevent{Full Stack Developer}{Onboarding.club}{December 2023 -- July 2024}{Remote}
+\begin{itemize}
+
+\item \textbf{Migrated Backend and Database}: Transitioned from \textbf{Golang} to \textbf{TypeScript} and from \textbf{PostgreSQL} to \textbf{MongoDB}, enhancing scalability and development speed while eliminating migration hassles, leading to a \textbf{30\% reduction in development time}.
+
+\item \textbf{Innovated Platform Features and Integrated Activity Heatmaps}: Built features for gigs, blogs, rewards, and profiling, increasing user growth by 40\%. Added heatmaps for activities like \textbf{blockchain and GitHub contributions}, boosting user engagement by 25\%.
+
+\item \textbf{Orchestrated Stellar Builder House}: Led the \textbf{first global Stellar Builder House}, attracting builders from across the country to develop products within a week, with participants having the \textbf{opportunity to secure \$100K in grants}.
+
+\end{itemize}
+
+%% Switch to the right column. This will now automatically move to the second
+%% page if the content is too long.
+\switchcolumn
+
+\cvsection{Skills}
+
+\cvtag{Golang}
+\cvtag{Echo}
+\cvtag{Redis}
+\cvtag{MongoDB}\\
+\cvtag{PostgreSQL}
+\cvtag{Gorm}
+\cvtag{Jenkins}
+\cvtag{Docker}
+\cvtag{Apache Kafka}
+\cvtag{Kubernetes}
+\cvtag{SQL}
+\cvtag{Git}
+\cvtag{gRPC}
+\cvtag{Python}
+\cvtag{C++}
+\cvtag{Nix}
+\cvtag{Typescript}
+\cvtag{NextJS}
+\cvtag{TailwindCSS}
+\cvtag{Redux}
+\cvtag{Lua}
+\cvtag{DSA}
+\cvtag{UNIX}
+\
+
+\smallskip
+
+\cvsection{Projects}
+
+\cvevent{TurboKey}{A High-Performance Key-Value Store}{}{}
+\begin{itemize}
+\item \textbf{High-Performance Web Service in Golang}: Built a TCP-based key-value storage service with 30\% faster data retrieval and support for 10,000 concurrent connections.
+\item \textbf{RESP Protocol Integration}: Enabled seamless compatibility with Redis projects using the RESP protocol, reducing migration effort by nearly 100\%.
+\end{itemize}
+
+\divider
+
+\cvevent{Jatt}{A Static Site Generator}{}{}
+\begin{itemize}
+\item \textbf{Efficient Static Site Generation}: Created Jatt, a static site generator in Golang with Templ templating, powering personal website and blogs.
+\item \textbf{Flexible Content Management}: Leveraged Templ for customizable layouts and optimized Golang concurrency for better performance.
+\end{itemize}
+
+\divider
+
+\cvevent{SheetBridge}{Real-Time Sync Service for Spreadsheet and SQL}{}{}
+\begin{itemize}
+    \item Developed a Golang service to mirror a PostgreSQL database in Google Sheets with \textbf{real-time synchronization}, ensuring data consistency across both platforms.
+    \item Utilized \textbf{Apache Kafka} to handle change streams, enabling low-latency updates in Sheets.
+    \item Employed \textbf{Protocol Buffers} for efficient inter-service communication, maintaining data integrity and minimizing overhead.
+\end{itemize}
+
+\medskip
+
+\end{paracol}
+
+
+\end{document}
