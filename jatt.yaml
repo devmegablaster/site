@@ -35,3 +35,6 @@ home:
       url: /about
     - name: Resume
       url: /resume.pdf
+
+analytics:
+  goatcounter: "devmegablaster"
