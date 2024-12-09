@@ -1,5 +1,6 @@
 baseURL: "https://megablaster.dev"
-title: devmegablaster
+title: "devmegablaster"
+description: "Ojas Tyagi - Problem Solver - Software Developer"
 author: Ojas Tyagi
 theme: dark
 contentDir: content
