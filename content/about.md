@@ -2,12 +2,31 @@
 layout: default
 ---
 
-# About Me
+## 🚀 Hey, I’m Ojas Tyagi!
 
-Hi, I’m Ojas Tyagi (“devmegablaster”), a software developer from India with a deep passion for technology and innovation. My journey in tech has been driven by a curiosity to explore how software can solve real-world problems and create meaningful impact. I’ve been fortunate to work on a variety of projects that have allowed me to develop a strong foundation in backend development, along with a growing interest in distributed systems and scalable architecture.
+I’m a **programmer**, a problem solver (which _occasionally requires a computer_), and a curious explorer based in Bangalore, India. I love building things that _scale effortlessly_, _run fast_, and _make life a little smoother_. Whether it’s optimizing systems, tackling tricky bugs, or brainstorming wild ideas, I’m all about making things efficient, clean, and fun.
 
-I spend a lot of my time experimenting with new technologies and frameworks, always eager to learn and apply something new. Whether it's building peer-to-peer networks or designing high-throughput, low-latency service-oriented architectures, I’m constantly pushing myself to improve and expand my skill set.
+## ✨ What I Do
 
-Beyond coding, I’m passionate about exploring new ideas and concepts, attending tech events, and engaging with the community. I also enjoy reading, traveling, and staying active through fitness. These interests keep me inspired and fuel my creativity, both in and out of the tech world.
+My work is about solving problems, building scalable systems, and creating tools that push boundaries. I’ve tackled challenges across scaling infrastructure, optimizing data pipelines, and crafting APIs that feel almost magical.
 
-Currently based in Bangalore, I’m part of the city’s vibrant tech community, where I’m always open to new opportunities and collaborations. If you’re in the area or just want to connect online, let’s chat. I’m always up for discussing projects, sharing ideas, or simply connecting with like-minded individuals. Feel free to reach out through my socials or drop me an email. Let’s see what we can build together!
+I previously worked at Superjoin, where I focused on scaling infrastructure, optimizing data workflows, and ensuring smooth integration processes. It was an awesome experience that taught me how to build robust systems and keep things running at scale.
+
+I’m also fascinated by **aerospace** and engineering—growing up, I loved watching jets zooming through the sky up close. That fascination with speed, design, and engineering brilliance influences how I approach solving complex problems. My goal is to build systems that are fast, sleek, and efficient, much like a well-designed aerospace system.
+
+![Hawks in a formation](/hawks.jpeg)
+Picture of Hawks in a formation clicked by me
+
+## 🛠️ This Site
+
+This site is powered by [Jatt](https://github.com/devmegablaster/jatt), a custom static site generator I built in Golang. I love keeping things simple, fast, and clean—no unnecessary distractions, just performance and clarity.
+
+- ⚛️ **No trackers**.
+- 🔒 Privacy-friendly analytics with **GoatCounter**.
+- ☁️ Hosted effortlessly on **GitHub Pages**.
+
+## 🔥 Let’s Connect
+
+Want to collaborate, brainstorm, or just chat about tech, life, or aerospace? Let’s make it happen! Send me a Hi! on discord (@devmegablaster) or send me a mail at [ojas@megablaster.dev](mailto:ojas@megablaster.dev)
+
+Let’s build something awesome, fast, and a little out of the ordinary! 🚀
