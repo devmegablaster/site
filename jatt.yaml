@@ -1,5 +1,5 @@
 baseURL: "https://megablaster.dev"
-title: "devmegablaster"
+title: "Ojas Tyagi"
 description: "Ojas Tyagi - Problem Solver - Software Developer"
 author: Ojas Tyagi
 theme: dark
@@ -7,7 +7,7 @@ contentDir: content
 outputDir: public
 
 nav:
-  title: devmegablaster
+  title: Ojas Tyagi
   items:
     - label: Home
       url: /
