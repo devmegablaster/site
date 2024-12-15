@@ -30,4 +30,10 @@ This site is powered by [Jatt](https://github.com/devmegablaster/jatt), a custom
 
 Want to collaborate, brainstorm, or just chat about tech, life, or aerospace? Let’s make it happen! Send me a Hi! on discord (@devmegablaster) or send me a mail at [ojas@megablaster.dev](mailto:ojas@megablaster.dev)
 
+SSH me a message @
+
+```bash
+ssh -t bashform.me f devmegablaster
+```
+
 Let’s build something awesome, fast, and a little out of the ordinary! 🚀
