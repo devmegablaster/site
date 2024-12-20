@@ -8,6 +8,7 @@ tags:
   - tui
   - go
   - tech
+draft: true
 ---
 
 Let’s face it: forms are boring. Whether it’s filling them out or making them, nobody enjoys the repetitive clicks of clunky interfaces.
