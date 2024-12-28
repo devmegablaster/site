@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About
+title: About | Ojas Tyagi (devmegablaster)
 ---
 
 ## 🚀 Hey, I’m Ojas Tyagi!
