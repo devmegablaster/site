@@ -1,5 +1,5 @@
 ---
-id: basform-ssh-forms
+id: basform
 layout: post
 date: 2024-12-02
 title: "BashForm: TUI forms over SSH"
