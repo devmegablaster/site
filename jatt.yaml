@@ -30,7 +30,7 @@ home:
     - name: mail
       url: "mailto:ojas@megablaster.dev"
     - name: monkeytype
-      url: "https://monkeytype.com/profile/megablaster"
+      url: "https://monkeytype.com/profile/devmegablaster"
   buttons:
     - name: About
       url: /about
