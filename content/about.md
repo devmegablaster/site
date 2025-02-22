@@ -15,6 +15,9 @@ I previously worked at Superjoin, where I focused on scaling infrastructure, opt
 
 I’m also fascinated by **aerospace** and engineering—growing up, I loved watching jets zooming through the sky up close. That fascination with speed, design, and engineering brilliance influences how I approach solving complex problems. My goal is to build systems that are fast, sleek, and efficient, much like a well-designed aerospace system.
 
+![F35 at Aero India 2025](/f35.jpg)
+Picture of F35 clicked by me at Aero India 2025
+
 ![Hawks in a formation](/hawks.jpeg)
 Picture of Hawks in a formation clicked by me
 
